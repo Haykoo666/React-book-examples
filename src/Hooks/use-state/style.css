@@ -1,0 +1,14 @@
+.box{
+   text-align: center;
+   background-color: darkolivegreen;
+   color: black;
+   font-size: 22px;
+}
+.btn{
+   font-size: 19px;
+   padding: 6px 16px;
+   border-radius: 16px;
+   background-color: brown;
+   color: white;
+   cursor: pointer;
+}

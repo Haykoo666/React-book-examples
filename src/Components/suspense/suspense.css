@@ -1,0 +1,46 @@
+.site-container{
+   display: grid;
+   grid-template-areas: 
+      "nav header header"
+      "nav content content"
+   ;
+   grid-template-columns: 2fr 10fr;
+   grid-template-rows: 60px 1fr;
+   gap: 16px;
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 15px 6px;
+   background-color: darkcyan;
+   height: 300px;
+}
+.header{
+   grid-area: header;
+   background-color: rgb(115, 48, 48);
+   color: white;
+   font-size: 26px;
+   font-weight: 700;
+   text-align: center;
+}
+.header img {
+   width: 56px;
+}
+.menu{
+   background-color: lightblue;
+   grid-area: nav;
+   font-size: 26px;
+   font-weight: 700;
+   text-align: center;
+}
+.main{
+   background-color: lightgreen;
+   grid-area: content;
+   font-size: 26px;
+   font-weight: 700;
+   padding: 6px;
+}
+.error{
+   background-color: #efacac;
+   border: double 4px darkred;
+   color: darkred;  
+   padding: 1em; 
+}

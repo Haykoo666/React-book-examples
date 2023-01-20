@@ -1,0 +1,99 @@
+* {
+   box-sizing: border-box;
+   letter-spacing: 1px;
+}
+
+body {
+   margin: 0;
+   font-family: monospace;
+}
+
+.title-hooks {
+   color: crimson;
+   text-align: center;
+   margin-top: 66px;
+}
+
+.video-player {
+   width: fit-content;
+   margin: 30px auto;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   border: 1px solid lightgreen;
+   padding: 26px;
+   box-shadow: 2px 2px 8px 3px grey;
+}
+
+.play-btn {
+   width: fit-content;
+   position: absolute;
+   bottom: -10px;
+   background-color: burlywood;
+   left: 5%;
+   font-size: 18px;
+   box-shadow: 2px 2px 6px;
+   cursor: pointer;
+   border-radius: 6px;
+   font-weight: 600;
+}
+
+.pause-btn {
+   width: fit-content;
+   position: absolute;
+   bottom: -10px;
+   right: 5%;
+   background-color: brown;
+   font-size: 18px;
+   box-shadow: 2px 2px 6px;
+   cursor: pointer;
+   font-weight: 600;
+}
+
+.play-btn:active {
+   color: white;
+}
+
+.pause-btn:active {
+   color: white;
+}
+
+hr {
+   display: block;
+   margin: 20px;
+}
+
+.List {
+   border: 1px solid #d9dddd;
+}
+
+.ListItemEven,
+.ListItemOdd {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.ListItemEven {
+   background-color: #f8f8f0;
+}
+
+.githubUser {
+   border: 2px solid red;
+   text-align: center;
+   width: fit-content;
+   margin: 0 auto;
+   padding: 22px;
+   border-radius: 12px;
+}
+
+.git--repo--controller {
+   justify-content: center;
+   gap: 16px;
+}
+
+.git--repo--controller button {
+   font-size: 22px;
+   font-weight: 700;
+   color: maroon;
+}
